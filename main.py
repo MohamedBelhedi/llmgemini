@@ -28,7 +28,7 @@ def main():
     st.title("Bildanalyse und Chatbot")
 
     api_key = st.text_input(label='API Key', type='password')
-    user_input = st.text_input(label='Chat')
+    user_input = st.text_area(label='Chat')
     pic = st.camera_input('Fotoaufnahme')
     if st.button(label='ChatPrompt'):
         if api_key and user_input:
