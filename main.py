@@ -51,7 +51,7 @@ def main():
             else:
                 st.warning("Es fehlt dein API Key oder deine Chat-Nachricht.")
     else:
-        st.write("Bitte gib mir ein Bild, damit ich dir sagen kann, was ich darauf sehe! 🖼️")
+        st.write("Frage mich etwas oder nimm ein Foto um es Analysieren")
 
 if __name__ == '__main__':
     main()
