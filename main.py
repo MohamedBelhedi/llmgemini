@@ -25,7 +25,6 @@ def ChatPrompt(api_key, user_input):
 
 def main():
     st.title("Bildanalyse und Chatbot")
-
     api_key = st.text_input(label='API Key', type='password')
     user_input = st.text_area(label='Prompt Anfrage')
     pic = st.camera_input(label='Fotoaufnahme')
